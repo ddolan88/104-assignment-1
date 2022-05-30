@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>The Fashion Pet</title>
+</head>
+<body>
+    <head>
+        <h1>The Fashion Pet</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="register.html">Register</a>
+        </nav>
+
+    </head>
+    <main>
+        <h2>Welcome to the Fashion Pet</h2>
+        <!--registration form-->
+        <div class="form-container">
+            <div class="mb-3">
+                <label class="label-form">Name:</label>
+                <input type="text" placeholder="Enter pet's name here" id="txtName" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="label-form">Age:</label>
+                <input type="number" placeholder="Add the pet's age" id="txtAge" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="label-form">Gender:</label>
+                <input type="text" placeholder="Enter the pet's gender" id="txtGender" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="label-form">Breed:</label>
+                <input type="text" placeholder="Enter the pet's breed" id="txtBreed" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Services:</label>
+                <select id="selService">
+                    <option value="default">-- Select a Service --</option>
+                    <option value="nail cut">Nail Cutting</option>
+                    <option value="grooming">Grooming</option>
+                    <option value="vaccines">Vaccines</option>
+                </select>
+                <div class="mb-3">
+                    <button class="btn btn-primary" onclick="register()">Register</button>
+                </div>
+            </div>
+            <!-- <div>
+                <label>Owner:</label>
+                <input type="text" placeholder="Enter the owner's name here" id="txtOwner">
+            </div>
+            <div>
+                <label>Phone Number:</label>
+                <input type="number" placeholder="Enter the owner's phone number here" id="txtPhone">
+            </div>
+            <div>
+                <label>Service:</label>
+                <input type="text" placeholder="Enter service here" id="txtService">
+            </div> -->
+        </div>
+        <div id="pets">
+            
+        </div>
+    </main>
+    <footer id="Info">
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+    "></script>
+    <script src="/104assignment1.js"></script>
+    <script src="/scripts/display.js"></script>
+</body>
+</html>
